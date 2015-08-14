@@ -1,5 +1,3 @@
 require "./gremlin/*"
 
-module Gremlin
-  # TODO Put your code here
-end
+Gremlin::Command.run
