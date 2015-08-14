@@ -65,7 +65,7 @@ module Gremlin
         end
 
         private def self.make_valid(comment)
-            "' " + comment.capitalize
+            "' " + comment[0, 1].capitalize + comment[1..-1]
         end
     end
 end
